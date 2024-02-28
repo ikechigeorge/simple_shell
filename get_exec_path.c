@@ -6,8 +6,8 @@
 /**
  * get_exec_path - get path
  * @prog: program name to find the executable
- * Return: fullpath to executable on Success,
- * NULL on failure
+ * Return: return fullpath to executable on Success,
+ * and return NULL on failure
  */
 char *get_exec_path(char *prog)
 {

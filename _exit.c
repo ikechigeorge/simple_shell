@@ -7,7 +7,7 @@
  * print_exit_error - prints error message for exit command
  * @data: shell data information
  * @ptr: program exit code
- * Return: void
+ * Return: return void
  */
 void print_exit_error(info_t *data, char *ptr)
 {

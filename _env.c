@@ -5,7 +5,7 @@
 /**
  * _env - print all environment variables
  * @shell: shell data
- * Return: void
+ * Return: return void
  */
 void _env(info_t *shell)
 {

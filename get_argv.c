@@ -7,9 +7,9 @@
  * realloc_array - reallocates an array memory
  * @realoc: array to reallocate
  * @arraysize: size of the array
- * @argc: for freeing array
- * @strcopy: string to free if failed
- * Return: pointer to reallocates memory
+ * @argc: frees array
+ * @strcopy: string to be freed if failed
+ * Return: pointer to reallocate memory
  */
 void **realloc_array(void **realoc, int *arraysize, int *argc, char *strcopy)
 {

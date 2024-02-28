@@ -2,7 +2,7 @@
 
 /**
  * _atoi - converts string to number
- * @ptr: string to convert
+ * @ptr: string to be converted
  * Return: convert number
  */
 int _atoi(char *ptr)
